@@ -104,7 +104,7 @@ def findavg(func, repeats=5):
         times.append(time1-time0)
     return statistics.mean(times)
 
-def scalabilitY():
+def scale():
     values = [1, 2, 4, 8, 16, 32, 64, 128, 256, 512]
     ranges = random.Random(0)
 
@@ -120,16 +120,16 @@ def scalabilitY():
 
         print("n = ",val, "time =", avgtime)
 
-    plt.plot(values, times, label="Scalability Graph")
+    plt.plot(values, times,  color="pink")
 
     plt.xlabel("n (hospitals = students)")
-    plt.ylabel("Run Time")
+    plt.ylabel("Run Time in seconds")
     plt.title("Scalability of Gale-Shapley Algorithm")
     plt.legend()
     plt.show()
 
 if __name__ == "__main__":
-    if "--scalability" in sys.argv:
-        scalabilitY()
+    if "--scalesetting" in sys.argv:
+        scale()
     else:
         normal()
