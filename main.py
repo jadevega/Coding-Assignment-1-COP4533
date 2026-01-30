@@ -125,7 +125,6 @@ def scale():
     plt.xlabel("n (hospitals = students)")
     plt.ylabel("Run Time in seconds")
     plt.title("Scalability of Gale-Shapley Algorithm")
-    plt.legend()
     plt.show()
 
 if __name__ == "__main__":
