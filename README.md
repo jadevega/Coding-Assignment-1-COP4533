@@ -1,7 +1,7 @@
 README file for main Gale-Shapley algorithm:
 
 Team Members: 
-Jade Vega UFID:
+Jade Vega UFID: 80117435
 Valentina Esteban UFID: 99166716
 How to run main algorithm:
   Run on Terminal:
