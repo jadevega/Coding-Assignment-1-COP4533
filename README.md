@@ -1,6 +1,8 @@
 README file for main Gale-Shapley algorithm:
 
-Team Members: Jade Vega
+Team Members: 
+Jade Vega UFID:
+Valentina Esteban UFID: 99166716
 How to run main algorithm:
   Run on Terminal:
     python main.py <-- this is for normal setting
@@ -19,6 +21,24 @@ Example Output:
 2 3
 3 1
 Number of proposals:  6
+
+How to run verifier algorithm:
+  Run on Terminal:
+    python verifier.py
+How to run verifier / Example Input:
+3
+1 2 3
+2 1 3
+1 3 2
+3 2 1
+1 2 3
+2 1 3
+1 2
+2 3
+3 1
+
+Example Output:
+VALID STABLE
 
 Graph and Solution Task C Main Algorithm:
 
